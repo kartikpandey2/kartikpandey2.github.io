@@ -200,6 +200,19 @@ hr {
   text-align: center;
 }
 
+.contact-div {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+}
+
+.contact-div > i {
+  height: 40px;
+  width: 40px;
+  margin-left: 3%;
+  margin-top: 16px;
+}
+
 .col-2 > picture > img {
   margin: 5% 0;
   width: 100%;
@@ -285,7 +298,6 @@ article {
   .article-content {
     height: 100%;
     max-height: 156px;
-    word-break: break-all;
     overflow: hidden;
   }
 }
