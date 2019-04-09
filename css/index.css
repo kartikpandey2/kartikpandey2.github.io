@@ -244,12 +244,13 @@ article {
     background-size: 100% 100%;
     background-position: right;
     background-repeat: no-repeat;
+    background-image: url("../assests/kartik-mobile.jpg");
   }
 
   .info-text-container {
     align-items: center;
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 0;
   }
 
