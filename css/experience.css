@@ -10,19 +10,20 @@ html {
 
 .navbar {
   display: flex;
-  margin: 1% 15%;
+  margin: 3% 15%;
   justify-content: space-between;
 }
 
 .logo {
-  width: 5%;
+  width: 10%;
   max-width: 42px;
   max-height: 42px;
 }
 
 .navbar-content {
   font-size: 0.8em;
-  width: 30%;
+  flex-basis: 50%;
+  text-align: center;
 }
 
 .menu {
@@ -30,7 +31,7 @@ html {
 }
 
 .navbar-content > b > a {
-  margin-right: 2%;
+  margin-right: 4%;
   color: black;
 }
 
@@ -57,13 +58,8 @@ html {
   max-width: 500px;
 }
 
-@media only screen and (max-device-width: 782px) {
-  .menu {
-    display: unset;
-    width: 5%;
-  }
-
+@media (max-width: 782px) {
   .navbar-content {
-    display: none;
+    flex-basis: 80%;
   }
 }
