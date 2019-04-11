@@ -225,6 +225,10 @@ article {
   margin: 1% 10% 1% 10%;
 }
 
+.mobile-article-image {
+  display: none;
+}
+
 .col-1 {
   flex-basis: 50%;
   margin-right: 5%;
@@ -269,10 +273,29 @@ article {
 
   .col-1 {
     line-height: 20px;
+    margin: auto 0%;
+    align-items: center;
+  }
+
+  .col-2 {
+    display: none;
+  }
+
+  .mobile-article-image {
+    margin: 5% 0%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-article-image > picture > img {
+    width: 100%;
+    max-width: 200px;
   }
 
   article {
-    margin: 5% 2%;
+    flex-direction: column;
+    margin: 5% 5%;
+    align-items: center;
   }
 
   .experience {
@@ -293,11 +316,5 @@ article {
 
   .believe {
     padding: 10% 0;
-  }
-
-  .article-content {
-    height: 100%;
-    max-height: 156px;
-    overflow: hidden;
   }
 }
