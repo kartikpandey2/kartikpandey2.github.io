@@ -145,9 +145,13 @@
                 <picture>
                   <source
                     media="(min-width: 320px) and (max-width: 480px)"
-                    srcset="./assests/Logo-jiit.png"
+                    srcset="./assests/Logo-jiit.webp"
                   />
-                  <img src="./assests/jiit.jpg" alt="" />
+                  <source
+                    media="(min-width: 481px) and (max-width: 600px)"
+                    srcset="./assests/Logo-jiit.webp"
+                  />
+                  <img src="./assests/Logo-jiit.png" alt="" />
                 </picture>
               </div>
               <p class="article-content">
@@ -168,6 +172,10 @@
               <picture>
                 <source
                   media="(min-width: 480px) and (max-device-width: 1100px)"
+                  srcset="./assests/Logo-jiit.webp"
+                />
+                <source
+                  media="(min-width: 480px) and (max-device-width: 1100px)"
                   srcset="./assests/Logo-jiit.png"
                 />
                 <img src="./assests/jiit.jpg" alt="" />
@@ -182,13 +190,13 @@
                 <picture>
                   <source
                     media="(min-width: 320px) and (max-width: 480px)"
-                    srcset="./assests/eps-logo.png"
+                    srcset="./assests/eps-logo.webp"
                   />
                   <source
-                    media="(min-width: 320px) and (max-width: 480px)"
+                    media="(min-width: 480px) and (max-width: 600px)"
                     srcset="./assests/eps-800px.jpg"
                   />
-                  <img src="./assests/eps.jpeg" alt="" />
+                  <img src="./assests/eps-logo.png" alt="" />
                 </picture>
               </div>
               <p class="article-content">
@@ -208,7 +216,7 @@
                   media="(min-width: 480px) and (max-width: 1100px)"
                   srcset="./assests/eps-logo.png"
                 />
-                <img src="./assests/eps.jpeg" alt="" />
+                <img src="./assests/eps-800px.jpg" alt="" />
               </picture>
             </div>
           </article>

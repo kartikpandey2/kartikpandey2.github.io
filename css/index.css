@@ -263,7 +263,8 @@ article {
     background-size: 100% 100%;
     background-position: right;
     background-repeat: no-repeat;
-    background-image: url("../assests/kartik-mobile.jpg");
+    background-image: url("../assests/kartik-mobile.webp"),
+      url("../assests/kartik-mobile.jpg");
     background-attachment: fixed;
   }
 
