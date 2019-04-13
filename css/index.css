@@ -20,7 +20,8 @@ body {
 .info-container {
   height: 100vh;
   width: 100%;
-  background-image: url("../assests/kartik3.JPG");
+  background-image: url("../assests/kartik3-orignal.webp"),
+    url("../assests/kartik3.JPG");
   background-size: cover;
   background-position: right;
   background-attachment: fixed;
@@ -318,5 +319,36 @@ article {
 
   .believe {
     padding: 10% 0;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 600px) {
+  .col-1 {
+    line-height: 20px;
+    margin: auto 0%;
+    align-items: center;
+  }
+
+  .col-2 {
+    display: none;
+  }
+
+  .mobile-article-image {
+    margin: 5% 0%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-article-image > picture > img {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 250px;
+  }
+
+  article {
+    flex-direction: column;
+    margin: 5% 5%;
+    align-items: center;
   }
 }
