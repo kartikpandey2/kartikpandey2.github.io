@@ -23,6 +23,7 @@ body {
   background-image: url("../assests/kartik3.JPG");
   background-size: cover;
   background-position: right;
+  background-attachment: fixed;
 }
 
 .info {
@@ -262,6 +263,7 @@ article {
     background-position: right;
     background-repeat: no-repeat;
     background-image: url("../assests/kartik-mobile.jpg");
+    background-attachment: fixed;
   }
 
   .info-text-container {
