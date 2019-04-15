@@ -132,7 +132,6 @@ hr {
 .believe-text {
   font-size: 1.3em;
   margin-bottom: 1%;
-  letter-spacing: 0.5px;
   text-align: center;
 }
 
@@ -190,7 +189,6 @@ hr {
 .contact-text {
   font-size: 1.5em;
   margin-bottom: 1%;
-  letter-spacing: 0.5px;
   text-align: center;
 }
 
@@ -198,7 +196,6 @@ hr {
   font-size: 1.3em;
   color: grey;
   margin-bottom: 1%;
-  letter-spacing: 0.5px;
   text-align: center;
 }
 
@@ -244,17 +241,15 @@ article {
 .col-1 > h3 {
   margin: 0 0 1% 0;
   color: #009eeb;
-  letter-spacing: 0.5px;
 }
 
 .col-1 > h4 {
   margin: 0 0 1% 0;
   color: #02b875;
-  letter-spacing: 0.5px;
 }
 
-.article-content {
-  letter-spacing: 0.5px;
+.article-content > a {
+  color: black;
 }
 
 /* For Mobile Devices */

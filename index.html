@@ -5,7 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Kartik Pandey</title>
-    <link rel="shortcut icon" href="./assests/kp-logo.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <style>
+      .info-container {
+        height: 100vh;
+        width: 100%;
+        background-image: url("../assests/kartik3-orignal.webp"),
+          url("../assests/kartik3.JPG");
+        background-size: cover;
+        background-position: right;
+        background-attachment: fixed;
+      }
+      .info {
+        z-index: 1;
+        background: rgba(32, 32, 32, 0.3);
+        width: 100%;
+        height: 100%;
+      }
+      .name {
+        font-size: 2.3em;
+        color: beige;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+      }
+
+      .infotext {
+        font-size: 1.7em;
+        color: beige;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+      }
+      .arrow {
+        position: absolute;
+        bottom: 2%;
+        left: 45%;
+        height: 50px;
+        width: 60px;
+        animation-duration: 2s !important;
+        animation-delay: 2s !important;
+      }
+    </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -20,16 +64,6 @@
 
       gtag("config", "UA-138301197-1");
     </script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div>
@@ -139,6 +173,42 @@
           </div>
           <article data-aos="fade-up" data-aos-duration="1000">
             <div class="col-1">
+              <h3>MongoDB University</h3>
+              <h4>MongoDB Basics</h4>
+              <div class="mobile-article-image">
+                <picture>
+                  <source
+                    media="(min-width: 320px) and (max-width: 600px)"
+                    srcset="./assests/mongoDB-university-logo.png"
+                  />
+                  <source
+                    media="(min-width: 481px) and (max-width: 600px)"
+                    srcset="./assests/mongoDB-university-logo.png"
+                  />
+                  <img src="./assests/mongoDB-university-logo.png" alt="" />
+                </picture>
+              </div>
+              <p class="article-content">
+                During August of the year 2018, I enrolled for course
+                <a href="https://university.mongodb.com/courses/M001/about"
+                  >M001: MongoDB Basics</a
+                >
+                offered by MongoDB University. In this course, I learned about
+                CRUD operation, schema design and basic query in MongoDB.
+              </p>
+            </div>
+            <div class="col-2">
+              <picture>
+                <source
+                  media="(min-width: 480px) and (max-device-width: 1100px)"
+                  srcset="./assests/Logo-jiit.webp"
+                />
+                <img src="./assests/mongoDB-university-logo.png" alt="" />
+              </picture>
+            </div>
+          </article>
+          <article data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-1">
               <h3>Jaypee Institute of Information Technology</h3>
               <h4>2015-2019</h4>
               <div class="mobile-article-image">
@@ -173,10 +243,6 @@
                 <source
                   media="(min-width: 480px) and (max-device-width: 1100px)"
                   srcset="./assests/Logo-jiit.webp"
-                />
-                <source
-                  media="(min-width: 480px) and (max-device-width: 1100px)"
-                  srcset="./assests/Logo-jiit.png"
                 />
                 <img src="./assests/jiit.jpg" alt="" />
               </picture>
@@ -215,6 +281,10 @@
                 <source
                   media="(min-width: 480px) and (max-width: 1100px)"
                   srcset="./assests/eps-logo.png"
+                />
+                <source
+                  media="(min-width: 1101px)"
+                  srcset="./assests/eps.webp"
                 />
                 <img src="./assests/eps-800px.jpg" alt="" />
               </picture>
@@ -332,6 +402,13 @@
         </section>
       </div>
     </div>
+    <link rel="shortcut icon" href="./assests/kp-logo.ico" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
